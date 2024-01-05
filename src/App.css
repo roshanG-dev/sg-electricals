@@ -105,6 +105,16 @@ section.timeline-card-content div.card-description > p {
   margin-top: 60px;
 }
 
+.test-sg-rg.col {
+  height: 750px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #f5f5f5
+}
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
